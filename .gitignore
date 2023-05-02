@@ -1,0 +1,6 @@
+# dependency
+.ipynb_checkpoints
+__pycache__
+
+# file
+*.pyc
