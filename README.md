@@ -21,13 +21,13 @@ run.sh: the script to run the main.py
 
 ### Model
 
-Analysis and paint: LIWC_analysis_before_after.ipynb, LIWC_depression_detection.ipynb, LDA.ipynb,
+**Analysis and paint:** LIWC_analysis_before_after.ipynb, LIWC_depression_detection.ipynb, LDA.ipynb,
 
-Baseline-Machine learning: tfidf.ipynb, LIWC_depression_detection.ipynb
+**Baseline-Machine learning**: tfidf.ipynb, LIWC_depression_detection.ipynb
 
-Baseline-Deep Learning: in model.py, the details of model setting are recorded in main.py and model.py
+**Baseline-Deep Learning:** in model.py, the details of model setting are recorded in main.py and model.py
 
-Mood2Content: in model.py, the details of model setting are recorded in main.py and model.py
+**Mood2Content:** in model.py, the details of model setting are recorded in main.py and model.py
 
 ### Finetune
 
@@ -50,7 +50,7 @@ In this manner, we build a dataset of COVID-19 patients with depression signals 
 
 ### **Data Access**
 
-Firstly, because this dataset involved vulnerable groups (COVID-19 patients, depression users), we will not directly release dataset. This dataset will be shared upon reasonable request. All applicants must provide a detailed proposal and ethics approval, and sign a formal user agreement. 
+Firstly, because this dataset relates to individuals' disease and mental health (COVID-19 and depression), we will not directly release dataset. This dataset will be shared upon reasonable request. All applicants must provide a detailed proposal and ethics approval, and sign a formal user agreement.s
 
 Secondly, following Twitter's automation rules and data security policy, we can not directly provide the original tweets to dataset consumer. Therefore, we will provide the structured data file with Tweet IDs. Based on the Tweet IDs provided by us, the dataset consumers could easily download the original tweets freely via official Twitter API by themselves. We upload the script (download_tweets.py) of downloading the tweets via API. 
 
@@ -77,8 +77,6 @@ If you refer to our code or dataset in your research, please cite our paper:
 }
 ```
 
-asdas
-
 ## Contact
 
-If you have any questions about our code or dataset, please feel free to contact us! (Jiageng Wu, [jiagengwu@zju.edu.cn](jiagengwu@zju.edu.cn); Jie Yang, [jieynlp@gmail.com](mailto:jieynlp@gmail.com))
+If you have any questions about our code or dataset, please feel free to contact us! (Jiageng Wu, [jiagengwu@zju.edu.cn](jiagengwu@zju.edu.cn))
